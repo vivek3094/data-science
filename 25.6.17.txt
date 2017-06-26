@@ -1,0 +1,75 @@
+descriptive
+	numerical
+		mean and median
+	categorical
+		mode and frequency table
+
+mean can be represented in histogram
+median scatter plot
+mode showin in bar chart
+freq table in pie chart
+
+Missing Values
+	% of missing rows is very less then drop them
+	if its numerical replace the missing value with mean
+	if its categorical replace with mode : if there is too much mv then this may cause a bias so create new catefory
+	replacing with random number : should be valid numbers because regression is affected by outliers
+	Predict the values 	
+
+STEPS
+Reading data from csv, tsv, sas, txt
+Schema
+Cleaning
+Descriptive - outliers
+MV
+
+READING
+read.csv(filename)
+data.table pppackage use fread
+
+CLEANING
+gsub  replace
+regexpr like inddex of
+substr
+
+DESCRIPTIVE
+sumary(data)
+gives 5 point summary for numerical
+
+
+
+fatcors : ordered or nominal
+
+DATASTRUVTURES
+vectors
+matrix
+
+hist()
+plot()
+barplot()
+
+
+
+R^2=1-DIFFERENCE IN BESTFIT/DIFFERENCE IN MEAN
+variance in modal = difference in mean - ifference in bestfit : this is OLS
+
+
+
+generally normal distribution doesnt hold true
+
+critical assumptions
+	no correlation btw depenedent
+	no autocorrelation
+
+
+
+variance of model = variance of mean from actual
+variance of error = variance of best fit from actual
+MODEL = SST
+(SST-SSE)/SST
+
+
+
+
+NULL HYPOTHESIS
+
